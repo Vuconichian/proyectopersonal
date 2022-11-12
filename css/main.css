@@ -1,0 +1,263 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+
+html {
+    height: 1000px;
+    max-width: 100%;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-family: 'Roboto mono', monospace;
+
+}
+a {
+    text-decoration: 0;
+    display: inline;
+    color: black;
+
+}
+header {
+    width: 100%;
+    height: 150px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+header .header-icons-container {
+    width: 100%;
+    height: 50px;
+    display: grid;
+    background-color: #03011a;
+}
+
+
+header .header-icons-container .icons {
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-items: flex-end;
+    align-items: center;
+    justify-self: end;
+    margin-right: 50px;
+}
+
+
+header .icons span {
+    color: white;
+}
+
+.blogs-main {
+    display: grid;
+    
+}
+
+.big-box-container {
+    position: relative;
+    background-color: #e6e9ed;
+    height: 500px;
+    width: 100%;
+    padding: 0 50px 40px;
+}
+
+.Titulo-principal-del-big-box {
+    position: relative;
+    left: 150px;
+    top: 20px;
+    font-weight: bold;
+}
+.Titulo-del-big-box {
+    position: relative;
+    left: 1000px;
+    top: 50px;
+    font-weight: bold;
+}
+
+.Texto-del-big-box {
+    position: relative;
+    left: 1000px;
+    top: 70px;
+    font-weight: bold;
+}
+
+.big-box-button {
+    position: relative;
+    left: 1200px;
+    top: 120px;
+    font-weight: bold;
+}
+
+.minibox-in-box-container {
+position: relative;
+    left: 1189px;
+    top: 150px;
+    height: 40px;
+    width: 100px;
+    box-sizing: border-box;
+    mix-blend-mode: normal;
+    border: 3px solid #03011a;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.photo-big-box img{
+    max-width: 488px;
+    max-height: 536px;
+    left: 360px;
+    top: -221px;
+    position: relative;
+}
+
+/* hasta aca la primer parte del blog */
+
+.blogs-post-container {
+    padding: 0 50px 40px;
+}
+
+
+.grid-container {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%; 
+}
+
+
+.blogs-post-container .post-container img {
+    max-width: 450px;
+    max-height: 400px;
+    position: relative;
+    top: 50px;
+}
+
+.blogs-post-container .post-container p {
+    margin-bottom: 35px;
+    margin-top: 60px;
+    width: 100%;
+    font-weight: bolder;
+}
+
+.mini-blogs-button {
+    margin-bottom: 35px;
+    margin-top: 60px;
+    width: 100%;
+    font-weight: bolder;
+    box-sizing: border-box;
+    mix-blend-mode: normal;
+    border: 3px solid #03011a;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    padding: 5px;
+}
+
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+    border-top: 35px solid #03011a;
+    text-align: center;
+}
+
+footer p {
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+    font-weight: 1000;
+
+}
+
+/* hasta aca llega el blogs */
+
+.blog-main {
+    display: grid;
+    
+}
+
+.big-box-container-blog {
+    position: relative;
+    background-color: #e6e9ed;
+    height: 500px;
+    width: 100%;
+    padding: 0 50px 40px;
+}
+
+
+.photo-big-box-blog {
+    margin-top: -140px;
+
+}
+.photo-big-box-blog img{
+max-height: 450px;
+margin-left: 50px;
+}
+
+.grid-container-blog {
+    margin: 50px 100px 500px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: center;
+    align-items: baseline;
+    align-content: center;
+    justify-items: center;
+}
+
+.titulo-blog-post-container{
+margin: 100px 750px 30px;
+font-size: 30px;
+font-weight: bold;
+}
+
+.blog-post-container {
+    margin-left: 0px;
+    margin-right: 10px;
+
+}
+
+.blog-post-container .post-container {
+max-width: 400px;
+max-height: 500px;
+}
+
+.blog-post-container .post-container p {
+    margin-bottom: 35px;
+    margin-top: 00px;
+    width: 100%;
+    font-weight: bolder;
+}
+
+span {
+    color: rgba(128, 255, 0, 0.808);
+    
+}
+
+h3 {
+    margin-left: 700px;
+    margin-top: -207px;
+    width: max-content;
+}
+
+
+.burberry{
+    max-width: 387px;
+    max-height: 300px;
+    position: relative;
+    top: 14px;
+}
+.unveranosinti {
+    max-width: 350px;
+    max-height: 200px;
+    position: relative;
+    margin-left: 52px;
+    top: -13px
+}
+
+.snkrs {
+    max-width: 350px;
+    max-height: 252px;
+    position: relative;
+    top: 0px;
+    margin-left: 33px;
+}
